@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<button onclick="Zade()">Click me</button>
+	<p id="lol">How have you been?</p>
+</body>
+<script>
+	function Zade()
+	{
+		var a;
+		if(confirm('Tell me your answer?'))
+		{
+			a="Yeah I been gud";
+		}
+		else
+		{
+			a="Nope";
+		}
+		document.getElementById('lol').innerHTML=a;	
+	}
+</script>
+</html>
