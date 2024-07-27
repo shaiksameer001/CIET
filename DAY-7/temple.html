@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercise</title>
+</head>
+<body>
+	<input type="number" id="num" value="">
+	<button onclick="click()">Result</button>
+	<script>
+		function click()
+		{
+			var a=document.getElementById('num').value;
+			var change=Number(a);
+			if(int(a)<21)
+			 {
+			 	r="You need"+(21-a)+"more Lemons";
+			 }
+			 else if(a>21)
+			 {
+			 	r="You have"+(a-21)+"extra Lemons";
+			 }
+		}
+	</script>
+
+</body>
+</html>
